@@ -13,7 +13,7 @@ Steps:
    cmd: pip install -r requirements.txt
 6. In the jaintapp/config.cfg file, add the db credentials (POSTGRESQL)
 7. Run the command: 
-   python manage.py makemirations
+   python manage.py makemigrations account
 8. Next command: 
    python manage.py migrate
 9. Next command to create admin/superuser: 
